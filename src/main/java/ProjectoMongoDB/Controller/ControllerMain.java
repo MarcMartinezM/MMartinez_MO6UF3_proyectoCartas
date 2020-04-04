@@ -13,9 +13,9 @@ import com.mongodb.client.FindIterable;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
 
-import ProjectoMongoDB.Utils.User;
 
 public class ControllerMain {
+	private static int UserID;
 	private static void disableLogs() {
 		Logger mongoLogger = Logger.getLogger("org.mongodb.driver");
 		mongoLogger.setLevel(Level.SEVERE);
@@ -30,6 +30,8 @@ public class ControllerMain {
 		MongoClient mgClient = ConnectionMongoDB.crearConexion();
 		disableLogs();
 		if(mgClient!=null) {
+			CargaDatosMongoDB.CargarDecks(mgClient);
+			CargaDatosMongoDB.CargarCartas(mgClient);
 			menuLogin(mgClient);
 			
 			
@@ -54,8 +56,9 @@ public class ControllerMain {
  
                 switch (opcion) {
                     case 1:
-                    	if(ConfirmLogin(mgClient)!= null) {
-                    	//  MenuJuego(nombreUser);
+                    	String nombreUser = ConfirmLogin(mgClient);
+                    	if(nombreUser!= null ) {
+                    	FuncionalidadesJuego.DatosUsers(mgClient,nombreUser,UserID);
                     	}else {
                     		System.out.println("vuelve ha introducir datos:");
                     	}
@@ -63,6 +66,7 @@ public class ControllerMain {
                         break;
                     case 2:
                     	System.out.println("adios :))))");
+                    	ConnectionMongoDB.disconnectMongo(mgClient);
                         salir = true;
                         break;
                     default:
@@ -74,20 +78,7 @@ public class ControllerMain {
             }
         }
         }
-        public static int leerI() {
-    		Scanner sc = new Scanner(System.in);
-    		return sc.nextInt();
-    	}
-
-    	public static float leerF() {
-    		Scanner sc = new Scanner(System.in);
-    		return sc.nextFloat();
-    	}
-
-    	public static String leerS() {
-    		Scanner sc = new Scanner(System.in);
-    		return sc.nextLine();
-    	}
+       
     private static String ConfirmLogin(MongoClient mgClient) {
     	System.out.println("introduce nombre usuario:");
     	String nombreUser = leerS();
@@ -96,9 +87,10 @@ public class ControllerMain {
     		System.out.println("introduce contraseña:");
     		String passUser = leerS();
     			if(isNotNull(passUser)==true) {
-    				
+    			
     				if(consultaUser(mgClient, nombreUser, passUser)==true) {
     					System.out.println("usuario correcto.");
+    					
     					return nombreUser;
     				}else {
     					System.out.println("no se ha encontrado el usuario.");
@@ -128,11 +120,27 @@ public class ControllerMain {
 		FindIterable<Document> doc = collection.find();
 		for (Document document : doc) {
 		if(user.equalsIgnoreCase(document.getString("nameUser")) && pass.equalsIgnoreCase(document.getString("passUser")) ) {
-			
+			UserID =document.getInteger("idUser");
+			System.out.println(UserID);
 			return true;
 		}
 		}
 	 return false;
+	}
+
+ public static int leerI() {
+		Scanner sc = new Scanner(System.in);
+		return sc.nextInt();
+	}
+
+	public static float leerF() {
+		Scanner sc = new Scanner(System.in);
+		return sc.nextFloat();
+	}
+
+	public static String leerS() {
+		Scanner sc = new Scanner(System.in);
+		return sc.nextLine();
 	}
 }
 	

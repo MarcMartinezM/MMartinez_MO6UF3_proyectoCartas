@@ -7,6 +7,7 @@ import org.bson.Document;
 import com.mongodb.MongoClient;
 import com.mongodb.client.FindIterable;
 import com.mongodb.client.MongoCollection;
+import com.mongodb.client.MongoCursor;
 import com.mongodb.client.MongoDatabase;
 
 import ProjectoMongoDB.Utils.Carta;
@@ -14,26 +15,28 @@ import ProjectoMongoDB.Utils.Deck;
 
 public class CargaDatosMongoDB {
 	
-	protected static ArrayList<Deck> decks = new ArrayList<Deck>();
-	protected static ArrayList<Carta> cartas = new ArrayList<Carta>();
-	
-	private static void CargarDecks(MongoClient mgClient) {
+	public static ArrayList<Deck> decks = new ArrayList<Deck>();
+	protected static ArrayList<Integer> cartas = new ArrayList<Integer>();
+	public static ArrayList<Carta> allCartas = new ArrayList<Carta>();
+	static void CargarDecks(MongoClient mgClient) {
 		MongoDatabase db = mgClient.getDatabase("LeagueOfRuneterra");
 		MongoCollection<Document> collection;
 		collection = db.getCollection("Decks");
+	
 		FindIterable<Document> doc = collection.find();
-		for (Document document : doc) {
-			Carta[] cartasDeck;
-			decks.add(new Deck(document.getInteger("deckID"), document.getString("deckName"),document.getInteger("deckValue"),cartasDeck=(Carta[]) document.get("infoCartas")));
-		}
+	for (Document dd : doc) {
+		decks.add(new Deck(dd.getInteger("deckID"),dd.getString("deckName"),dd.getInteger("deckValue"),cartas = (ArrayList<Integer>) dd.get("infoCartas")));
 	}
-	private static void CargarCartas(MongoClient mgClient) {
+		
+		
+	}
+	static void CargarCartas(MongoClient mgClient) {
 		MongoDatabase db = mgClient.getDatabase("LeagueOfRuneterra");
 		MongoCollection<Document> collection;
 		collection = db.getCollection("Cartas");
 		FindIterable<Document> doc = collection.find();
 		for (Document document : doc) {
-			cartas.add(new Carta(document.getInteger("id"),document.getString("type"),document.getString("nombre_Carta"),document.getInteger("coste_invocacion"),document.getInteger("ataque"), document.getInteger("vida"),document.getString("habilidad_especial"),document.getString("faccion")));
+			allCartas.add(new Carta(document.getInteger("id"),document.getString("tipo"),document.getString("nombre_carta"),document.getInteger("coste_invocacion"),document.getInteger("ataque"), document.getInteger("vida"),document.getString("habilidad_especial"),document.getString("faccion")));
 		}
 		
 	}

@@ -1,17 +1,20 @@
 package ProjectoMongoDB.Utils;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class User {
 	private int idUser;
 	private String nameUser;
 	private String passUser;
-	private Deck[] userDecks;
-	private Carta[] userColection;
+	private ArrayList<Integer> userDecks;
+	private ArrayList<Integer> userColection;
 	public User() {
 		super();
 	}
-	public User(int idUser, String nameUser, String passUser, Deck[] userDecks, Carta[] userColection) {
+	
+	public User(int idUser, String nameUser, String passUser, ArrayList<Integer> userDecks,
+			ArrayList<Integer> userColection) {
 		super();
 		this.idUser = idUser;
 		this.nameUser = nameUser;
@@ -19,6 +22,7 @@ public class User {
 		this.userDecks = userDecks;
 		this.userColection = userColection;
 	}
+
 	public int getIdUser() {
 		return idUser;
 	}
@@ -37,23 +41,30 @@ public class User {
 	public void setPassUser(String passUser) {
 		this.passUser = passUser;
 	}
-	public Deck[] getUserDecks() {
+
+	public ArrayList<Integer> getUserDecks() {
 		return userDecks;
 	}
-	public void setUserDecks(Deck[] userDecks) {
+
+	public void setUserDecks(ArrayList<Integer> userDecks) {
 		this.userDecks = userDecks;
 	}
-	public Carta[] getUserColection() {
+
+	public ArrayList<Integer> getUserColection() {
 		return userColection;
 	}
-	public void setUserColection(Carta[] userColection) {
+
+	public void setUserColection(ArrayList<Integer> userColection) {
 		this.userColection = userColection;
 	}
+
 	@Override
 	public String toString() {
 		return "User [idUser=" + idUser + ", nameUser=" + nameUser + ", passUser=" + passUser + ", userDecks="
-				+ Arrays.toString(userDecks) + ", userColection=" + Arrays.toString(userColection) + "]";
+				+ userDecks + ", userColection=" + userColection + "]";
 	}
+
+	
 	
 	
 }
