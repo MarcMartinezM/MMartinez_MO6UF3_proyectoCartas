@@ -1,0 +1,59 @@
+{ 
+    "_id" : ObjectId("5e666cd4689af9be461d9d15"), 
+    "deckID" : NumberInt(1), 
+    "deckName" : "deckTest", 
+    "deckValue" : NumberInt(2), 
+    "infoCartas" : [
+        NumberInt(1), 
+        NumberInt(2)
+    ]
+}
+{ 
+    "_id" : ObjectId("5e876e5a1c9d440000b33a01"), 
+    "deckID" : NumberInt(2), 
+    "deckName" : "noxus", 
+    "deckValue" : NumberInt(60), 
+    "infoCartas" : [
+        NumberInt(40), 
+        NumberInt(41), 
+        NumberInt(42), 
+        NumberInt(43), 
+        NumberInt(44), 
+        NumberInt(36), 
+        NumberInt(37), 
+        NumberInt(39), 
+        NumberInt(35), 
+        NumberInt(46), 
+        NumberInt(45), 
+        NumberInt(34)
+    ]
+}
+{ 
+    "_id" : ObjectId("5e8770061c9d440000b33a02"), 
+    "deckID" : NumberInt(3), 
+    "deckName" : "Predeterminado-isla de las sombras", 
+    "deckValue" : NumberInt(31), 
+    "infoCartas" : [
+        NumberInt(81), 
+        NumberInt(82), 
+        NumberInt(82), 
+        NumberInt(89), 
+        NumberInt(90), 
+        NumberInt(91), 
+        NumberInt(92), 
+        NumberInt(98), 
+        NumberInt(99), 
+        NumberInt(96), 
+        NumberInt(95), 
+        NumberInt(95), 
+        NumberInt(83), 
+        NumberInt(84), 
+        NumberInt(85), 
+        NumberInt(86), 
+        NumberInt(87), 
+        NumberInt(80), 
+        NumberInt(80), 
+        NumberInt(88), 
+        NumberInt(88)
+    ]
+}
