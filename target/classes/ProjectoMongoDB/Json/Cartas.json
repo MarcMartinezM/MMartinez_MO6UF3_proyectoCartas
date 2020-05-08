@@ -1,3 +1,4 @@
+[
 { 
     "_id" : ObjectId("5e60dd2f47ca9c94072898b5"), 
     "id" : NumberInt(1), 
@@ -8,7 +9,7 @@
     "vida" : NumberInt(1), 
     "habilidad_especial" : "Ultimo aliento: Crea en la mano un hechizo de coste 6 o mas de cualquier region que no sea Demacia", 
     "faccion" : "Demacia"
-}
+},,
 { 
     "_id" : ObjectId("5e60dd3d47ca9c940728a129"), 
     "id" : NumberInt(2), 
@@ -19,7 +20,7 @@
     "vida" : NumberInt(0), 
     "habilidad_especial" : "Proporciona inmunidad a un aliado", 
     "faccion" : "Demacia"
-}
+},,
 { 
     "_id" : ObjectId("5e60dd4747ca9c940728a7a7"), 
     "id" : NumberInt(3), 
@@ -30,7 +31,7 @@
     "vida" : NumberInt(0), 
     "habilidad_especial" : "Otorga +1|+1 a un aliado esta ronda", 
     "faccion" : "Demacia"
-}
+},,
 { 
     "_id" : ObjectId("5e60dd5247ca9c940728b045"), 
     "id" : NumberInt(4), 
@@ -41,7 +42,7 @@
     "vida" : NumberInt(1), 
     "habilidad_especial" : "Retador", 
     "faccion" : "Demacia"
-}
+},,
 { 
     "_id" : ObjectId("5e60dd6247ca9c940728badd"), 
     "id" : NumberInt(5), 
@@ -52,7 +53,7 @@
     "vida" : NumberInt(2), 
     "habilidad_especial" : "Otorga barrera a un aliado", 
     "faccion" : "Demacia"
-}
+},,
 { 
     "_id" : ObjectId("5e60dd6c47ca9c940728c0af"), 
     "id" : NumberInt(6), 
@@ -63,7 +64,7 @@
     "vida" : NumberInt(2), 
     "habilidad_especial" : "Resistente", 
     "faccion" : "Demacia"
-}
+},,
 { 
     "_id" : ObjectId("5e60dd7547ca9c940728c70e"), 
     "id" : NumberInt(7), 
@@ -74,7 +75,7 @@
     "vida" : NumberInt(0), 
     "habilidad_especial" : "Hechizo Rapido: Un aliado golpea a un oponente", 
     "faccion" : "Demacia"
-}
+},
 { 
     "_id" : ObjectId("5e60dd7f47ca9c940728cd05"), 
     "id" : NumberInt(8), 
@@ -85,7 +86,7 @@
     "vida" : NumberInt(2), 
     "habilidad_especial" : "Cuando invocas un aliado Epica, obtiene +1|+1", 
     "faccion" : "Demacia"
-}
+},
 { 
     "_id" : ObjectId("5e60dd8947ca9c940728d404"), 
     "id" : NumberInt(9), 
@@ -96,7 +97,7 @@
     "vida" : NumberInt(3), 
     "habilidad_especial" : "Doble ataque, La primera vez que muera un aliado en la ronda, prepara tu ataque", 
     "faccion" : "Demacia"
-}
+},
 { 
     "_id" : ObjectId("5e60de1947ca9c9407293949"), 
     "id" : NumberInt(10), 
@@ -107,7 +108,7 @@
     "vida" : NumberInt(2), 
     "habilidad_especial" : "La primera vez que Lucian muera esta partida, obtiene +1|+1 y Doble ataque", 
     "faccion" : "Demacia"
-}
+},
 { 
     "_id" : ObjectId("5e60de2e47ca9c9407294773"), 
     "id" : NumberInt(11), 
@@ -118,7 +119,7 @@
     "vida" : NumberInt(4), 
     "habilidad_especial" : "Si Fiora mata a 4 enemigos y sobrevive, ganas la partida", 
     "faccion" : "Demacia"
-}
+},
 { 
     "_id" : ObjectId("5e60de8547ca9c9407297f42"), 
     "id" : NumberInt(12), 
@@ -129,7 +130,7 @@
     "vida" : NumberInt(2), 
     "habilidad_especial" : "Concede retador a un aliado esta ronda", 
     "faccion" : "Demacia"
-}
+},
 { 
     "_id" : ObjectId("5e60de9547ca9c94072988ac"), 
     "id" : NumberInt(13), 
@@ -140,7 +141,7 @@
     "vida" : NumberInt(2), 
     "habilidad_especial" : "Cuando ataca obtiene +2|+2", 
     "faccion" : "Demacia"
-}
+},
 { 
     "_id" : ObjectId("5e60de9f47ca9c9407298e5c"), 
     "id" : NumberInt(14), 
@@ -151,7 +152,7 @@
     "vida" : NumberInt(1), 
     "habilidad_especial" : "Cuando se invoca esta carta, invoca otra copia exacta de la misma", 
     "faccion" : "Demacia"
-}
+},
 { 
     "_id" : ObjectId("5e60dea847ca9c9407299460"), 
     "id" : NumberInt(15), 
@@ -162,7 +163,7 @@
     "vida" : NumberInt(6), 
     "habilidad_especial" : "Regeneracion, Al empezar la ronda, prepara tu ataque", 
     "faccion" : "Demacia"
-}
+},
 { 
     "_id" : ObjectId("5e60deb747ca9c9407299e0f"), 
     "id" : NumberInt(16), 
@@ -173,7 +174,7 @@
     "vida" : NumberInt(4), 
     "habilidad_especial" : "Ultimo aliento: Crea una carta Epica en tu mano", 
     "faccion" : "Demacia"
-}
+},
 { 
     "_id" : ObjectId("5e60dec447ca9c940729a789"), 
     "id" : NumberInt(17), 
@@ -184,7 +185,7 @@
     "vida" : NumberInt(5), 
     "habilidad_especial" : "Barrera, Cuando gastas 6 de mana o mas en hechizos, crea una Chispa Final en tu mano", 
     "faccion" : "Demacia"
-}
+},
 { 
     "_id" : ObjectId("5e60dece47ca9c940729ad8b"), 
     "id" : NumberInt(18), 
@@ -195,7 +196,7 @@
     "vida" : NumberInt(6), 
     "habilidad_especial" : "Cuando atacas, los demas aliados obtienen +1|+1 y temible", 
     "faccion" : "Demacia"
-}
+},
 { 
     "_id" : ObjectId("5e60ded947ca9c940729b3e5"), 
     "id" : NumberInt(19), 
@@ -206,7 +207,7 @@
     "vida" : NumberInt(7), 
     "habilidad_especial" : "Cuando se invoca, prepara el ataque", 
     "faccion" : "Demacia"
-}
+},
 { 
     "_id" : ObjectId("5e60dee647ca9c940729bbba"), 
     "id" : NumberInt(20), 
@@ -217,7 +218,7 @@
     "vida" : NumberInt(0), 
     "habilidad_especial" : "Un aliado golpea a todos los enemigos", 
     "faccion" : "Demacia"
-}
+},
 { 
     "_id" : ObjectId("5e60defc47ca9c940729d165"), 
     "id" : NumberInt(30), 
@@ -228,7 +229,7 @@
     "vida" : NumberInt(8), 
     "habilidad_especial" : "Jugar: Cambia tu mano por el mismo número de Diezmar", 
     "faccion" : "Noxus"
-}
+},
 { 
     "_id" : ObjectId("5e60df0847ca9c940729d9ff"), 
     "id" : NumberInt(31), 
@@ -239,7 +240,7 @@
     "vida" : NumberInt(4), 
     "habilidad_especial" : "Aspirante: Puede elegir la unidad enemiga que bloquea", 
     "faccion" : "Noxus"
-}
+},
 { 
     "_id" : ObjectId("5e60dfb647ca9c94072a513c"), 
     "id" : NumberInt(32), 
@@ -250,7 +251,7 @@
     "vida" : NumberInt(6), 
     "habilidad_especial" : "Comienzo de ronda: aturde al enemigo más débil", 
     "faccion" : "Noxus"
-}
+},
 { 
     "_id" : ObjectId("5e60dfc247ca9c94072a5885"), 
     "id" : NumberInt(33), 
@@ -261,7 +262,7 @@
     "vida" : NumberInt(5), 
     "habilidad_especial" : "El nexo enemigo tiene 10 o menos de vida", 
     "faccion" : "Noxus"
-}
+},
 { 
     "_id" : ObjectId("5e60dfd147ca9c94072a6177"), 
     "id" : NumberInt(34), 
@@ -272,7 +273,7 @@
     "vida" : NumberInt(12), 
     "habilidad_especial" : "Atacar: Consigo +4|+0", 
     "faccion" : "Noxus"
-}
+},
 { 
     "_id" : ObjectId("5e60e06247ca9c94072abf13"), 
     "id" : NumberInt(35), 
@@ -283,7 +284,7 @@
     "vida" : NumberInt(0), 
     "habilidad_especial" : "Si tienes un aliado con 5 o más de poder, asesina a todas las unidades con 4 o menos de poder", 
     "faccion" : "Noxus"
-}
+},
 { 
     "_id" : ObjectId("5e60e06c47ca9c94072aceb0"), 
     "id" : NumberInt(36), 
@@ -294,7 +295,7 @@
     "vida" : NumberInt(5), 
     "habilidad_especial" : "Atacar: Por cada otro aliado en ataque, inflige 1 de daño y 1 al nexo enemigo", 
     "faccion" : "Noxus"
-}
+},
 { 
     "_id" : ObjectId("5e60e07347ca9c94072ad41b"), 
     "id" : NumberInt(37), 
@@ -305,7 +306,7 @@
     "vida" : NumberInt(0), 
     "habilidad_especial" : "Inflige 2 de daño a una unidad enemiga y prepara el ataque", 
     "faccion" : "Noxus"
-}
+},
 { 
     "_id" : ObjectId("5e60e07c47ca9c94072ada0a"), 
     "id" : NumberInt(38), 
@@ -316,7 +317,7 @@
     "vida" : NumberInt(0), 
     "habilidad_especial" : "Aturde a todos los enemigos con 4 o menos de poder", 
     "faccion" : "Noxus"
-}
+},
 { 
     "_id" : ObjectId("5e60e08a47ca9c94072ae28f"), 
     "id" : NumberInt(39), 
@@ -327,7 +328,7 @@
     "vida" : NumberInt(5), 
     "habilidad_especial" : "Temible- Solo se puede bloquear con enemigos de 3 o más de poder", 
     "faccion" : "Noxus"
-}
+},
 { 
     "_id" : ObjectId("5e60e09347ca9c94072ae90c"), 
     "id" : NumberInt(40), 
@@ -338,7 +339,7 @@
     "vida" : NumberInt(0), 
     "habilidad_especial" : "Aturde a un enemigo. Concede +2|+0 a todos los aliados esta ronda", 
     "faccion" : "Noxus"
-}
+},
 { 
     "_id" : ObjectId("5e60e09c47ca9c94072aeea9"), 
     "id" : NumberInt(41), 
@@ -349,7 +350,7 @@
     "vida" : NumberInt(3), 
     "habilidad_especial" : "Apoyo: Concede +3|+0", 
     "faccion" : "Noxus"
-}
+},
 { 
     "_id" : ObjectId("5e60e0a647ca9c94072af4ce"), 
     "id" : NumberInt(42), 
@@ -360,7 +361,7 @@
     "vida" : NumberInt(3), 
     "habilidad_especial" : "Cuando se me invoca, otorga a otros aliados arácnidos +2|+0", 
     "faccion" : "Noxus"
-}
+},
 { 
     "_id" : ObjectId("5e60e0bd47ca9c94072b0432"), 
     "id" : NumberInt(43), 
@@ -371,7 +372,7 @@
     "vida" : NumberInt(4), 
     "habilidad_especial" : "Cuando se me invoca, consigo +1|+1 por cada unidad que has aturdido o retirado esta partida", 
     "faccion" : "Noxus"
-}
+},
 { 
     "_id" : ObjectId("5e60e0c347ca9c94072b0884"), 
     "id" : NumberInt(44), 
@@ -382,7 +383,7 @@
     "vida" : NumberInt(0), 
     "habilidad_especial" : "Inflige 4 de daño al nexo enemigo", 
     "faccion" : "Noxus"
-}
+},
 { 
     "_id" : ObjectId("5e60e0cd47ca9c94072b0e85"), 
     "id" : NumberInt(45), 
@@ -393,7 +394,7 @@
     "vida" : NumberInt(5), 
     "habilidad_especial" : "Cuando otro aliado sobrevive al daño, le otorga +1|+0", 
     "faccion" : "Noxus"
-}
+},
 { 
     "_id" : ObjectId("5e60e0d647ca9c94072b13c0"), 
     "id" : NumberInt(46), 
@@ -404,7 +405,7 @@
     "vida" : NumberInt(3), 
     "habilidad_especial" : "Inflijo el doble de daño al nexo", 
     "faccion" : "Noxus"
-}
+},
 { 
     "_id" : ObjectId("5e60e0de47ca9c94072b1896"), 
     "id" : NumberInt(47), 
@@ -415,7 +416,7 @@
     "vida" : NumberInt(2), 
     "habilidad_especial" : "Alianza: Consigo +1|+1", 
     "faccion" : "Noxus"
-}
+},
 { 
     "_id" : ObjectId("5e60e0e647ca9c94072b1e72"), 
     "id" : NumberInt(48), 
@@ -426,7 +427,7 @@
     "vida" : NumberInt(2), 
     "habilidad_especial" : "Cuando se me invoca, consigo +1|+1 por cada aliado que tengas", 
     "faccion" : "Noxus"
-}
+},
 { 
     "_id" : ObjectId("5e60e15447ca9c94072b65b9"), 
     "id" : NumberInt(49), 
@@ -437,7 +438,7 @@
     "vida" : NumberInt(5), 
     "habilidad_especial" : "Cuando se me invoca, inflige 1 de daño a todos los demás aliados", 
     "faccion" : "Noxus"
-}
+},
 { 
     "_id" : ObjectId("5e60e15e47ca9c94072b6b9e"), 
     "id" : NumberInt(80), 
@@ -448,7 +449,7 @@
     "vida" : NumberInt(0), 
     "habilidad_especial" : "RAFAGA Elige un adepto y crea una copia de él con Endeble en la mano", 
     "faccion" : "Isla de las Sombras"
-}
+},
 { 
     "_id" : ObjectId("5e60e16947ca9c94072b724a"), 
     "id" : NumberInt(81), 
@@ -459,7 +460,7 @@
     "vida" : NumberInt(2), 
     "habilidad_especial" : "", 
     "faccion" : "Isla de las Sombras"
-}
+},
 { 
     "_id" : ObjectId("5e60e17047ca9c94072b76fd"), 
     "id" : NumberInt(82), 
@@ -470,7 +471,7 @@
     "vida" : NumberInt(0), 
     "habilidad_especial" : "VELOZ Drena 4 de vida a una unidad aliada", 
     "faccion" : "Isla de las Sombras"
-}
+},
 { 
     "_id" : ObjectId("5e60e17947ca9c94072b7ccf"), 
     "id" : NumberInt(83), 
@@ -481,7 +482,7 @@
     "vida" : NumberInt(0), 
     "habilidad_especial" : "LENTO Si un aliado ha muerto esta ronda, invoca 2 Cria de araña", 
     "faccion" : "Isla de las Sombras"
-}
+},
 { 
     "_id" : ObjectId("5e60e18247ca9c94072b82d6"), 
     "id" : NumberInt(84), 
@@ -492,7 +493,7 @@
     "vida" : NumberInt(1), 
     "habilidad_especial" : "Ultimo aliento: Invoca 1 Cria de araña", 
     "faccion" : "Isla de las Sombras"
-}
+},
 { 
     "_id" : ObjectId("5e60e18a47ca9c94072b889a"), 
     "id" : NumberInt(85), 
@@ -503,7 +504,7 @@
     "vida" : NumberInt(0), 
     "habilidad_especial" : "RAFAGA Otorga a un aliado +3|+3 y Endeble", 
     "faccion" : "Isla de las Sombras"
-}
+},
 { 
     "_id" : ObjectId("5e60e19247ca9c94072b943a"), 
     "id" : NumberInt(86), 
@@ -514,7 +515,7 @@
     "vida" : NumberInt(1), 
     "habilidad_especial" : "Jugar: Otorga a un aliado de la mano Endeble y reduce su coste en 1", 
     "faccion" : "Isla de las Sombras"
-}
+},
 { 
     "_id" : ObjectId("5e60e19d47ca9c94072b9fb9"), 
     "id" : NumberInt(87), 
@@ -525,7 +526,7 @@
     "vida" : NumberInt(1), 
     "habilidad_especial" : "TEMIBLE", 
     "faccion" : "Isla de las Sombras"
-}
+},
 { 
     "_id" : ObjectId("5e60e1a547ca9c94072ba45f"), 
     "id" : NumberInt(88), 
@@ -536,7 +537,7 @@
     "vida" : NumberInt(1), 
     "habilidad_especial" : "Ultimo aliento: Crea otro adepto con Ultimo aliento de cualquier region que cueste 3 de mana o menos", 
     "faccion" : "Isla de las Sombras"
-}
+},
 { 
     "_id" : ObjectId("5e60e1ab47ca9c94072ba88d"), 
     "id" : NumberInt(89), 
@@ -547,7 +548,7 @@
     "vida" : NumberInt(2), 
     "habilidad_especial" : "Ninguno", 
     "faccion" : "Isla de las Sombras"
-}
+},
 { 
     "_id" : ObjectId("5e60e1b547ca9c94072bae6a"), 
     "id" : NumberInt(90), 
@@ -558,7 +559,7 @@
     "vida" : NumberInt(0), 
     "habilidad_especial" : "Si un aliado ha muerto esta ronda, inflinge 3 de daño a una unidad enemiga", 
     "faccion" : "Isla de las Sombras"
-}
+},
 { 
     "_id" : ObjectId("5e60e1bf47ca9c94072bb4e4"), 
     "id" : NumberInt(91), 
@@ -569,7 +570,7 @@
     "vida" : NumberInt(1), 
     "habilidad_especial" : "Ultimo aliento: Invoca 1 Abominacion profuga", 
     "faccion" : "Isla de las Sombras"
-}
+},
 { 
     "_id" : ObjectId("5e60e1c847ca9c94072bba6d"), 
     "id" : NumberInt(92), 
@@ -580,7 +581,7 @@
     "vida" : NumberInt(3), 
     "habilidad_especial" : "Atacar: Invoca 1 Cria de araña en ataque", 
     "faccion" : "Isla de las Sombras"
-}
+},
 { 
     "_id" : ObjectId("5e60e1d347ca9c94072bc121"), 
     "id" : NumberInt(93), 
@@ -591,7 +592,7 @@
     "vida" : NumberInt(0), 
     "habilidad_especial" : "Mata a un aliado para robar 2 cartas", 
     "faccion" : "Isla de las Sombras"
-}
+},
 { 
     "_id" : ObjectId("5e60e1df47ca9c94072bc9b9"), 
     "id" : NumberInt(94), 
@@ -602,7 +603,7 @@
     "vida" : NumberInt(0), 
     "habilidad_especial" : "Invoca 3 Espiritu desatado", 
     "faccion" : "Isla de las Sombras"
-}
+},
 { 
     "_id" : ObjectId("5e60e1e947ca9c94072bcfad"), 
     "id" : NumberInt(95), 
@@ -613,7 +614,7 @@
     "vida" : NumberInt(2), 
     "habilidad_especial" : "Cuando se me invoca, otorgo +1|+0 a otros Espectros de la niebla aliados, esten donde esten", 
     "faccion" : "Isla de las Sombras"
-}
+},
 { 
     "_id" : ObjectId("5e60e20347ca9c94072be02e"), 
     "id" : NumberInt(96), 
@@ -624,7 +625,7 @@
     "vida" : NumberInt(1), 
     "habilidad_especial" : "Cuando un aliado con Endeble ataca y me muero, vuelvo al ataque", 
     "faccion" : "Isla de las Sombras"
-}
+},
 { 
     "_id" : ObjectId("5e60e20b47ca9c94072be50a"), 
     "id" : NumberInt(97), 
@@ -635,7 +636,7 @@
     "vida" : NumberInt(3), 
     "habilidad_especial" : "Cuando invocas a un aliado con Endeble, obtiene +1|+1", 
     "faccion" : "Isla de las Sombras"
-}
+},
 { 
     "_id" : ObjectId("5e60e21147ca9c94072be933"), 
     "id" : NumberInt(98), 
@@ -646,7 +647,7 @@
     "vida" : NumberInt(2), 
     "habilidad_especial" : "TEMIBLE Me vinculo con un aliado y este obtiene +2|+0 mientras estamos vinculados. Mejora: He visto morir a 3 o mas aliados", 
     "faccion" : "Isla de las Sombras"
-}
+},
 { 
     "_id" : ObjectId("5e60e21c47ca9c94072bf08f"), 
     "id" : NumberInt(99), 
@@ -657,7 +658,7 @@
     "vida" : NumberInt(2), 
     "habilidad_especial" : "CONTENDEIENTE Mejora: He visto morir a 6 o mas unidades", 
     "faccion" : "Isla de las Sombras"
-}
+},
 { 
     "_id" : ObjectId("5e60e22a47ca9c94072bfaad"), 
     "id" : NumberInt(100), 
@@ -668,7 +669,7 @@
     "vida" : NumberInt(0), 
     "habilidad_especial" : "Inflige 2 de daño al nexo enemigo.", 
     "faccion" : "Piltover y Zaun"
-}
+},
 { 
     "_id" : ObjectId("5e60e23247ca9c94072bff98"), 
     "id" : NumberInt(101), 
@@ -679,7 +680,7 @@
     "vida" : NumberInt(0), 
     "habilidad_especial" : "Elige un adepto.", 
     "faccion" : "Piltover y Zaun"
-}
+},
 { 
     "_id" : ObjectId("5e60e23b47ca9c94072c052f"), 
     "id" : NumberInt(102), 
@@ -690,7 +691,7 @@
     "vida" : NumberInt(1), 
     "habilidad_especial" : "Contendiente", 
     "faccion" : "Piltover y Zaun"
-}
+},
 { 
     "_id" : ObjectId("5e60e24147ca9c94072c0932"), 
     "id" : NumberInt(103), 
@@ -701,7 +702,7 @@
     "vida" : NumberInt(1), 
     "habilidad_especial" : "Endeble:ultimo aliente: inflige 1 de daño a ambos nexos.", 
     "faccion" : "Piltover y Zaun"
-}
+},
 { 
     "_id" : ObjectId("5e60e24947ca9c94072c0da4"), 
     "id" : NumberInt(104), 
@@ -712,7 +713,7 @@
     "vida" : NumberInt(2), 
     "habilidad_especial" : "Elusion. Golpe al nexo: duplica el daño el total de Boletus venenosos del mazo del rival.", 
     "faccion" : "Piltover y Zaun"
-}
+},
 { 
     "_id" : ObjectId("5e60e25047ca9c94072c1218"), 
     "id" : NumberInt(105), 
@@ -723,7 +724,7 @@
     "vida" : NumberInt(1), 
     "habilidad_especial" : "ninguna", 
     "faccion" : "Piltover y Zaun"
-}
+},
 { 
     "_id" : ObjectId("5e60e25747ca9c94072c15ba"), 
     "id" : NumberInt(106), 
@@ -734,7 +735,7 @@
     "vida" : NumberInt(1), 
     "habilidad_especial" : "Elusion.", 
     "faccion" : "Piltover y Zaun"
-}
+},
 { 
     "_id" : ObjectId("5e60e25f47ca9c94072c19d2"), 
     "id" : NumberInt(107), 
@@ -745,7 +746,7 @@
     "vida" : NumberInt(30), 
     "habilidad_especial" : "Abrumar.", 
     "faccion" : "Piltover y Zaun"
-}
+},
 { 
     "_id" : ObjectId("5e60e26647ca9c94072c1f0a"), 
     "id" : NumberInt(108), 
@@ -756,7 +757,7 @@
     "vida" : NumberInt(0), 
     "habilidad_especial" : "Inflige 2 de daño al nexo enemigo.", 
     "faccion" : "Piltover y Zaun"
-}
+},
 { 
     "_id" : ObjectId("5e60e27447ca9c94072c28d2"), 
     "id" : NumberInt(109), 
@@ -767,7 +768,7 @@
     "vida" : NumberInt(2), 
     "habilidad_especial" : "Cuando se me invoca,se crea 1 nube de setas.", 
     "faccion" : "Piltover y Zaun"
-}
+},
 { 
     "_id" : ObjectId("5e60e27b47ca9c94072c2c75"), 
     "id" : NumberInt(110), 
@@ -778,7 +779,7 @@
     "vida" : NumberInt(2), 
     "habilidad_especial" : "Contendiente. Descartame para invocarme", 
     "faccion" : "Piltover y Zaun"
-}
+},
 { 
     "_id" : ObjectId("5e60e28547ca9c94072c3252"), 
     "id" : NumberInt(111), 
@@ -789,7 +790,7 @@
     "vida" : NumberInt(2), 
     "habilidad_especial" : "Cuando sobrevive al daño se invoca una unidad carmesi.", 
     "faccion" : "Piltover y Zaun"
-}
+},
 { 
     "_id" : ObjectId("5e60e28c47ca9c94072c3684"), 
     "id" : NumberInt(112), 
@@ -800,7 +801,7 @@
     "vida" : NumberInt(4), 
     "habilidad_especial" : "Elusion. Golpe al nexo: crea 1 disparo mistico en la mesa, cuando lanzas un hechizo, inflige 2 de daño al nexo enemigo.", 
     "faccion" : "Piltover y Zaun"
-}
+},
 { 
     "_id" : ObjectId("5e60e29447ca9c94072c3b2c"), 
     "id" : NumberInt(113), 
@@ -811,7 +812,7 @@
     "vida" : NumberInt(0), 
     "habilidad_especial" : "Veloz. Un aliado en combate golpea a un enemigo en combate.añade 1 draven al mazo", 
     "faccion" : "Piltover y Zaun"
-}
+},
 { 
     "_id" : ObjectId("5e60e29c47ca9c94072c3f6b"), 
     "id" : NumberInt(114), 
@@ -822,7 +823,7 @@
     "vida" : NumberInt(2), 
     "habilidad_especial" : "Al atacar otorga +1+1 a los saqueadores de la legion aliados esten donde esten.", 
     "faccion" : "Piltover y Zaun"
-}
+},
 { 
     "_id" : ObjectId("5e60e2a447ca9c94072c446e"), 
     "id" : NumberInt(115), 
@@ -833,7 +834,7 @@
     "vida" : NumberInt(2), 
     "habilidad_especial" : "al Jugar tiene 5/2 o 2/5.", 
     "faccion" : "Piltover y Zaun"
-}
+},
 { 
     "_id" : ObjectId("5e60e2ab47ca9c94072c487d"), 
     "id" : NumberInt(116), 
@@ -844,7 +845,7 @@
     "vida" : NumberInt(3), 
     "habilidad_especial" : "Ataque rapido. Jugar o golpear: crea 1 hacha giratoria en la mano.", 
     "faccion" : "Piltover y Zaun"
-}
+},
 { 
     "_id" : ObjectId("5e60e2b647ca9c94072c50c1"), 
     "id" : NumberInt(117), 
@@ -855,7 +856,7 @@
     "vida" : NumberInt(3), 
     "habilidad_especial" : "ninguna", 
     "faccion" : "Piltover y Zaun"
-}
+},
 { 
     "_id" : ObjectId("5e60e2bd47ca9c94072c5ac2"), 
     "id" : NumberInt(118), 
@@ -866,7 +867,7 @@
     "vida" : NumberInt(2), 
     "habilidad_especial" : "Robo de vida.", 
     "faccion" : "Piltover y Zaun"
-}
+},
 { 
     "_id" : ObjectId("5e60e2c647ca9c94072c66be"), 
     "id" : NumberInt(119), 
@@ -878,3 +879,4 @@
     "habilidad_especial" : "Abrumar.", 
     "faccion" : "Piltover y Zaun"
 }
+]

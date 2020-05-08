@@ -1,0 +1,60 @@
+[
+{ 
+    "deckID" : 1, 
+    "deckName" : "deckTest", 
+    "deckValue" : 2, 
+    "infoCartas" : [
+        1, 
+        2
+    ]
+},
+{ 
+   
+    "deckID" : 2, 
+    "deckName" : "Predeterminado-noxus", 
+    "deckValue" : 60, 
+    "infoCartas" : [
+        40, 
+        41, 
+        42, 
+        43, 
+        44, 
+        36, 
+        37, 
+       	39, 
+        35, 
+        46, 
+        45, 
+        34
+    ]
+},
+{ 
+   
+    "deckID" : 3, 
+    "deckName" : "Predeterminado-isla de las sombras", 
+    "deckValue" : 31, 
+    "infoCartas" : [
+        81, 
+        82, 
+        82, 
+        89, 
+        90, 
+        91, 
+        92, 
+        98, 
+        99, 
+        96, 
+        95, 
+        95, 
+        83, 
+        84, 
+        85, 
+        86, 
+        87, 
+        80, 
+        80, 
+        88, 
+        88
+    ]
+}
+]

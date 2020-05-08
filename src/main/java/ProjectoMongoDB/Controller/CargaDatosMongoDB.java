@@ -36,7 +36,7 @@ public class CargaDatosMongoDB {
 		
 		collection.drop();
 		JSONParser parser = new JSONParser();
-		File f = new File("..\\UF3.projecto\\src\\main\\java\\ProjectoMongoDB\\Json\\Decks.json");
+		File f = new File("..\\UF3.projecto\\src\\main\\resources\\Decks.json");
 		try {
 			FileReader fr = new FileReader(f);
 			JSONArray array = (JSONArray) parser.parse(fr);
@@ -77,7 +77,7 @@ public class CargaDatosMongoDB {
 		
 		collection.drop();
 		JSONParser parser = new JSONParser();
-		File f = new File("..\\UF3.projecto\\src\\main\\java\\ProjectoMongoDB\\Json\\Cartas.json");
+		File f = new File("..\\\\UF3.projecto\\\\src\\\\main\\\\resources\\\\Cartas.json");
 		try {
 			FileReader fr = new FileReader(f);
 			JSONArray array = (JSONArray) parser.parse(fr);

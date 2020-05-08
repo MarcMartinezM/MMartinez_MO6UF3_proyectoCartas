@@ -1,5 +1,5 @@
+[
 { 
-    "_id" : ObjectId("5e666cd4689af9be461d9d15"), 
     "deckID" : NumberInt(1), 
     "deckName" : "deckTest", 
     "deckValue" : NumberInt(2), 
@@ -7,9 +7,8 @@
         NumberInt(1), 
         NumberInt(2)
     ]
-}
+},
 { 
-    "_id" : ObjectId("5e876e5a1c9d440000b33a01"), 
     "deckID" : NumberInt(2), 
     "deckName" : "noxus", 
     "deckValue" : NumberInt(60), 
@@ -27,9 +26,8 @@
         NumberInt(45), 
         NumberInt(34)
     ]
-}
+},
 { 
-    "_id" : ObjectId("5e8770061c9d440000b33a02"), 
     "deckID" : NumberInt(3), 
     "deckName" : "Predeterminado-isla de las sombras", 
     "deckValue" : NumberInt(31), 
@@ -57,3 +55,4 @@
         NumberInt(88)
     ]
 }
+]

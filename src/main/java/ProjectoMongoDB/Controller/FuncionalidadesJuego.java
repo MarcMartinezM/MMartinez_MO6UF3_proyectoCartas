@@ -165,9 +165,9 @@ public class FuncionalidadesJuego {
      							if(dd.getDeckValue()==60 || dd.getInfoCartas().size()==20) {
      								System.out.println("NO SE PUEDEN AÑADIR MAS CARTAS");
      							}else {
-     								for(int inf : dd.getInfoCartas()) {
+     								for(Number inf : dd.getInfoCartas()) {
      									for(Carta cc : CargaDatosMongoDB.allCartas) {
-     										if(inf == cc.getId()) {
+     										if(inf.intValue() == cc.getId()) {
      											if(cc.getFaccion().equalsIgnoreCase("demacia")) {
      												dema++;
      											}else if(cc.getFaccion().equalsIgnoreCase("noxus")) {
@@ -200,10 +200,10 @@ public class FuncionalidadesJuego {
      									faccionDeck="freljord";
      								}
      								int cont=0;
-     								for(int inf : dd.getInfoCartas()) {
+     								for(Number inf : dd.getInfoCartas()) {
      									for (Integer integer : colectionUsuario) {
      										for(Carta cc : CargaDatosMongoDB.allCartas) {
-     											if(inf==integer && faccionDeck.equalsIgnoreCase(cc.getFaccion())) {
+     											if(inf.intValue()==integer && faccionDeck.equalsIgnoreCase(cc.getFaccion())) {
     												cont++;
     											}
      										}
@@ -214,10 +214,10 @@ public class FuncionalidadesJuego {
      								if(cont==total) {
      									System.out.println("estas son las cartas que puedes anadir de la faccion del deck:");
      									int valorDeCartaAnadir=dd.getDeckValue()-60;
-     									for(int inf : dd.getInfoCartas()) {
+     									for(Number inf : dd.getInfoCartas()) {
      										for (Integer integer : colectionUsuario) {
      											for(Carta cc : CargaDatosMongoDB.allCartas) {
-     												if(inf==integer &&integer==cc.getId()&& faccionDeck.equalsIgnoreCase(cc.getFaccion()) &&cc.getCostCarta()>=valorDeCartaAnadir) {
+     												if(inf.intValue()==integer &&integer==cc.getId()&& faccionDeck.equalsIgnoreCase(cc.getFaccion()) &&cc.getCostCarta()>=valorDeCartaAnadir) {
      													System.out.println(cc.toString());
      												}
      											}
@@ -228,10 +228,10 @@ public class FuncionalidadesJuego {
      			     					System.out.println("introduce la id de la carta que desea añadir:");
      			     					int idCartaAnadir=leerI();
      			     					boolean laTiene=false;
-     			     					for(int inf : dd.getInfoCartas()) {
+     			     					for(Number inf : dd.getInfoCartas()) {
      										for (Integer integer : colectionUsuario) {
      											for(Carta cc : CargaDatosMongoDB.allCartas) {
-     												if(inf==integer&&idCartaAnadir==inf &&integer==cc.getId()&& faccionDeck.equalsIgnoreCase(cc.getFaccion()) &&cc.getCostCarta()>=valorDeCartaAnadir) {
+     												if(inf.intValue()==integer&&idCartaAnadir==inf.intValue() &&integer==cc.getId()&& faccionDeck.equalsIgnoreCase(cc.getFaccion()) &&cc.getCostCarta()>=valorDeCartaAnadir) {
      													capNumCarta++;
      													laTiene=true;
      													coste=cc.getCostCarta();
@@ -282,10 +282,10 @@ public class FuncionalidadesJuego {
      									}
      									System.out.println("estas son las cartas que puedes anadir de la faccion del deck:");
      									int valorDeCartaAnadir=60-dd.getDeckValue();
-     									for(int inf : dd.getInfoCartas()) {
+     									for(Number inf : dd.getInfoCartas()) {
      										for (Integer integer : colectionUsuario) {
      											for(Carta cc : CargaDatosMongoDB.allCartas) {
-     												if(inf==integer && integer==cc.getId()&&(faccionDeck.equalsIgnoreCase(cc.getFaccion())|| segundaFaccionDeck.equalsIgnoreCase(cc.getFaccion()))&&cc.getCostCarta()>=valorDeCartaAnadir) {
+     												if(inf.intValue()==integer && integer==cc.getId()&&(faccionDeck.equalsIgnoreCase(cc.getFaccion())|| segundaFaccionDeck.equalsIgnoreCase(cc.getFaccion()))&&cc.getCostCarta()>=valorDeCartaAnadir) {
      													System.out.println(cc.toString());
      												}
      											}
@@ -296,10 +296,10 @@ public class FuncionalidadesJuego {
      			     					System.out.println("introduce la id de la carta que desea añadir:");
      			     					int idCartaAnadir=leerI();
      			     					boolean laTiene=false;
-     			     					for(int inf : dd.getInfoCartas()) {
+     			     					for(Number inf : dd.getInfoCartas()) {
      										for (Integer integer : colectionUsuario) {
      											for(Carta cc : CargaDatosMongoDB.allCartas) {
-     												if(inf==integer&&idCartaAnadir==inf &&  integer==cc.getId()&&(faccionDeck.equalsIgnoreCase(cc.getFaccion())|| segundaFaccionDeck.equalsIgnoreCase(cc.getFaccion())) &&cc.getCostCarta()>=valorDeCartaAnadir) {
+     												if(inf.intValue()==integer&&idCartaAnadir==inf.intValue() &&  integer==cc.getId()&&(faccionDeck.equalsIgnoreCase(cc.getFaccion())|| segundaFaccionDeck.equalsIgnoreCase(cc.getFaccion())) &&cc.getCostCarta()>=valorDeCartaAnadir) {
      													capNumCarta++;
      													laTiene=true;
      													coste=cc.getCostCarta();
@@ -344,9 +344,9 @@ public class FuncionalidadesJuego {
                     	System.out.println("todas las cartas que tiene el deck:");
                        for (Deck dd : CargaDatosMongoDB.decks) {
 						if(dd.getDeckID()==deckUserEle) {
-							for(int dc : dd.getInfoCartas()) {
+							for(Number dc : dd.getInfoCartas()) {
 								for(Carta idCarta: CargaDatosMongoDB.allCartas) {
-									if(dc==idCarta.getId()) {
+									if(dc.intValue()==idCarta.getId()) {
 										System.out.println(idCarta.toString());
 									}
 								}
@@ -358,20 +358,23 @@ public class FuncionalidadesJuego {
                        int idCartaEliminar=leerI();
                        for (Deck dd : CargaDatosMongoDB.decks) {
                     	   if(dd.getDeckID()==deckUserEle) {
-                    		   for(int dc : dd.getInfoCartas()) {
+                    		   for(Number dc : dd.getInfoCartas()) {
                     			   for(Carta idCarta: CargaDatosMongoDB.allCartas) {
-   									if(dc==idCarta.getId()) {
+   									if(dc.intValue()==idCarta.getId()) {
    										costeCarta=idCarta.getCostCarta();
    									}
    									}
-                    			   if(dc==idCartaEliminar) {
+                    			   if(dc.intValue()==idCartaEliminar) {
                     				   dd.setDeckValue(dd.getDeckValue()-costeCarta);
                     				   
                     				   ArrayList<Integer> idEliminarArray= new ArrayList<Integer>();
                     				   idEliminarArray= dd.getInfoCartas();
+                    				   
                     				   for (int i = 0; i < idEliminarArray.size(); i++) {
-										if(idEliminarArray.get(i)==idCartaEliminar) {
+                    					   Number n=idEliminarArray.get(i);
+										if(n.intValue()==idCartaEliminar) {
 											idEliminarArray.remove(i);
+											
 										}
 									}
                     				  
@@ -460,10 +463,10 @@ public class FuncionalidadesJuego {
 							
 							for (Deck forDeckPrede : CargaDatosMongoDB.decks) {
 								if(forDeckPrede.getDeckID()==idDeckDeseado) {
-									for(int info : forDeckPrede.getInfoCartas()) {
+									for(Number info : forDeckPrede.getInfoCartas()) {
 										for (int coll : colectionUsuario) {
 											
-											if(coll==info ) {
+											if(coll==info.intValue() ) {
 												tieneLasCartas++;
 											}
 										}
@@ -517,10 +520,10 @@ public class FuncionalidadesJuego {
 							
 							for (Deck forDeckPrede : CargaDatosMongoDB.decks) {
 								if(forDeckPrede.getDeckID()==idDeckDeseado) {
-									for(int info : forDeckPrede.getInfoCartas()) {
+									for(Number info : forDeckPrede.getInfoCartas()) {
 										for (int coll : colectionUsuario) {
 											
-											if(coll==info ) {
+											if(coll==info.intValue() ) {
 												tieneLasCartas++;
 											}
 										}
@@ -640,7 +643,7 @@ public class FuncionalidadesJuego {
 						}
 					}
 				}
-				if(esHeroe<=1) {
+				//if(esHeroe<=1) {
 					MongoDatabase db = mgClient.getDatabase("LeagueOfRuneterra");
 					MongoCollection<Document> collection;
 					collection = db.getCollection("Decks");
@@ -662,10 +665,10 @@ public class FuncionalidadesJuego {
 					Document update = new Document("$set",new Document("userDecks",u.getUserDecks()));
 					collection.findOneAndUpdate(find, update);
 					System.out.println("añadida deck a la coleccion del usuario.");
-				}else {
+			//	}else {
 					System.out.println("ERROR: no has introducido ni 1 solo heroe.");
 					salir=true;
-				}
+			//	}
 				
 				salir = true;
 				
